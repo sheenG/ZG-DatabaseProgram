@@ -1,0 +1,35 @@
+.content{
+	margin-top: 11px;
+}
+
+.content button{
+	height: 30px;/*搜索按钮的高度*/
+    color:  white;/*搜索按钮字体颜色为白色*/
+    font-size: 15px;/*搜索按钮的字体大小*/
+    border: 0px;/*无边框*/
+    cursor: pointer;/*搜索按钮的选择时为手形状*/
+    border-radius: 0px;
+    background-color: #466BAF;/*按钮的背景颜色为蓝色*/
+    width: 100px;/*按钮的宽度*/ 
+    margin:0;
+    overflow:hidden;
+    padding: 0px;/*无内边距*/
+}
+
+.content button:hover {
+    background-color: white;/*按钮选中后背景颜色为白色*/
+    color: #466BAF;/*按钮选中后字体颜色为蓝色*/
+    border: 1px solid #466BAF;/*按钮选中后边框颜色为蓝色*/
+}
+
+.content input{
+	width: 350px;/*宽度为250px*/
+    height: 30px;/*高度为30px*/
+    border: 1px solid #ddd;/*输入框的边框*/
+    padding: 0px 0px 0px 10px;/*左边内边距为10px，显得美观*/
+    font-size: 15px;/*字体大小*/
+    border-radius: 0px;
+    outline:none;
+    margin:0;
+    overflow:hidden;
+}

@@ -1,0 +1,23 @@
+.panel{
+	margin-top: 0px;
+	width: 50%;
+	height: 300px;
+	padding: 10px 0px 0px 20px;
+}
+
+.panel input{
+	width: 150px;/*宽度为250px*/
+    height: 20px;/*高度为30px*/
+    border: 1px solid #ddd;/*输入框的边框*/
+    padding: 0px 0px 0px 10px;/*左边内边距为10px，显得美观*/
+    font-size: 15px;/*字体大小*/
+    border-radius: 3px;
+    outline:none;
+}
+
+.panel input:focus{
+	background-color: gray;
+	color:white;
+	border-left: 1px solid #CC865E;/*当输入框成为焦点时，左边框颜色编程褐色*/
+}
+

@@ -1,0 +1,20 @@
+.panel{
+	display:block;
+	width:90%;
+	height:30px;
+	padding:8px 0px 0px 15px;
+	cursor:pointer;	
+}
+
+.panel a{
+	color:#5A879D;
+	font-size:14px;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.panel a:hover{
+	color:white;
+}
+
+

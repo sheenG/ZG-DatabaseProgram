@@ -1,0 +1,12 @@
+.panel{
+	margin-top: 0px;
+	width: 20%;
+	height: 300px;
+	padding: 10px 0px 0px 20px;
+}
+
+.panel a{
+	display: block;
+	height: 20px;
+	font-size: 15px;
+}
